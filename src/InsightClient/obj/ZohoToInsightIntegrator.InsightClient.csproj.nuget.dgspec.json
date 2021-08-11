@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\InsightClient\\ZohoToInsightIntegrator.InsightClient.csproj": {}
+  },
+  "projects": {
+    "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Business\\ZohoToInsightIntegrator.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Business\\ZohoToInsightIntegrator.Business.csproj",
+        "projectName": "ZohoToInsightIntegrator.Business",
+        "projectPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Business\\ZohoToInsightIntegrator.Business.csproj",
+        "packagesPath": "C:\\Users\\Noman_Oscillosoft\\.nuget\\packages\\",
+        "outputPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Noman_Oscillosoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Contract\\ZohoToInsightIntegrator.Contract.csproj": {
+                "projectPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Contract\\ZohoToInsightIntegrator.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Contract\\ZohoToInsightIntegrator.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Contract\\ZohoToInsightIntegrator.Contract.csproj",
+        "projectName": "ZohoToInsightIntegrator.Contract",
+        "projectPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Contract\\ZohoToInsightIntegrator.Contract.csproj",
+        "packagesPath": "C:\\Users\\Noman_Oscillosoft\\.nuget\\packages\\",
+        "outputPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Noman_Oscillosoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Hellang.Middleware.ProblemDetails": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\InsightClient\\ZohoToInsightIntegrator.InsightClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\InsightClient\\ZohoToInsightIntegrator.InsightClient.csproj",
+        "projectName": "ZohoToInsightIntegrator.InsightClient",
+        "projectPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\InsightClient\\ZohoToInsightIntegrator.InsightClient.csproj",
+        "packagesPath": "C:\\Users\\Noman_Oscillosoft\\.nuget\\packages\\",
+        "outputPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\InsightClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Noman_Oscillosoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Business\\ZohoToInsightIntegrator.Business.csproj": {
+                "projectPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Business\\ZohoToInsightIntegrator.Business.csproj"
+              },
+              "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Contract\\ZohoToInsightIntegrator.Contract.csproj": {
+                "projectPath": "C:\\ZohoToInsight\\insight2crm-integration-api\\src\\Contract\\ZohoToInsightIntegrator.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

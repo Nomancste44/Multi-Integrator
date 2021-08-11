@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{26A4887D-5F74-47B1-BCF0-D1367A1CB434}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{961BD9D9-0C89-43E5-9350-1049A6C868C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contract", "Contract", "{53C3B79F-0008-4025-B262-4F681BF46175}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0EF31EB7-DCBD-4E1D-AFB3-BBEF91658B83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZohoToInsightIntegrator.Api", "Api\ZohoToInsightIntegrator.Api.csproj", "{05BFA6B2-B12C-4719-9E89-8BC0EFD9FA12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ZohoClient", "ZohoClient", "{B19F0C6D-4D29-4175-B23B-BBC241B7F40F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InsightClient", "InsightClient", "{50B9E911-E772-4B6D-968B-866B033FCA9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZohoToInsightIntegrator.Business", "Business\ZohoToInsightIntegrator.Business.csproj", "{9C871F6C-300B-4E7A-8CE3-2E2498654BAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZohoToInsightIntegrator.Contract", "Contract\ZohoToInsightIntegrator.Contract.csproj", "{73E61AD7-8F0A-4727-A831-0004266EF30C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZohoToInsightIntegrator.Data", "Data\ZohoToInsightIntegrator.Data.csproj", "{29C15DE1-6E9C-421F-AFA0-1D8B0AA0B95F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZohoToInsightIntegrator.ZohoClient", "ZohoClient\ZohoToInsightIntegrator.ZohoClient.csproj", "{49577CC4-2B9B-40A0-A501-E1D14BFE4582}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZohoToInsightIntegrator.InsightClient", "InsightClient\ZohoToInsightIntegrator.InsightClient.csproj", "{DC5B5351-9674-48BB-8EA4-EAB83D1213A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{769B3EFE-B076-4975-9A0D-CAAF71CC5F36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{C234B7E6-8C83-4937-81F3-8BACC69F5A8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZohoToInsightIntegrator.UnitTest", "Tests\UnitTest\ZohoToInsightIntegrator.UnitTest.csproj", "{60FE4B2B-B3D5-406E-BFD1-1D5D54B66F03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05BFA6B2-B12C-4719-9E89-8BC0EFD9FA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BFA6B2-B12C-4719-9E89-8BC0EFD9FA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BFA6B2-B12C-4719-9E89-8BC0EFD9FA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BFA6B2-B12C-4719-9E89-8BC0EFD9FA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C871F6C-300B-4E7A-8CE3-2E2498654BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C871F6C-300B-4E7A-8CE3-2E2498654BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C871F6C-300B-4E7A-8CE3-2E2498654BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C871F6C-300B-4E7A-8CE3-2E2498654BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E61AD7-8F0A-4727-A831-0004266EF30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E61AD7-8F0A-4727-A831-0004266EF30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E61AD7-8F0A-4727-A831-0004266EF30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E61AD7-8F0A-4727-A831-0004266EF30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C15DE1-6E9C-421F-AFA0-1D8B0AA0B95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C15DE1-6E9C-421F-AFA0-1D8B0AA0B95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C15DE1-6E9C-421F-AFA0-1D8B0AA0B95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C15DE1-6E9C-421F-AFA0-1D8B0AA0B95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49577CC4-2B9B-40A0-A501-E1D14BFE4582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49577CC4-2B9B-40A0-A501-E1D14BFE4582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49577CC4-2B9B-40A0-A501-E1D14BFE4582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49577CC4-2B9B-40A0-A501-E1D14BFE4582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5B5351-9674-48BB-8EA4-EAB83D1213A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5B5351-9674-48BB-8EA4-EAB83D1213A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5B5351-9674-48BB-8EA4-EAB83D1213A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5B5351-9674-48BB-8EA4-EAB83D1213A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FE4B2B-B3D5-406E-BFD1-1D5D54B66F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FE4B2B-B3D5-406E-BFD1-1D5D54B66F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FE4B2B-B3D5-406E-BFD1-1D5D54B66F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FE4B2B-B3D5-406E-BFD1-1D5D54B66F03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05BFA6B2-B12C-4719-9E89-8BC0EFD9FA12} = {26A4887D-5F74-47B1-BCF0-D1367A1CB434}
+		{9C871F6C-300B-4E7A-8CE3-2E2498654BAD} = {961BD9D9-0C89-43E5-9350-1049A6C868C8}
+		{73E61AD7-8F0A-4727-A831-0004266EF30C} = {53C3B79F-0008-4025-B262-4F681BF46175}
+		{29C15DE1-6E9C-421F-AFA0-1D8B0AA0B95F} = {0EF31EB7-DCBD-4E1D-AFB3-BBEF91658B83}
+		{49577CC4-2B9B-40A0-A501-E1D14BFE4582} = {B19F0C6D-4D29-4175-B23B-BBC241B7F40F}
+		{DC5B5351-9674-48BB-8EA4-EAB83D1213A9} = {50B9E911-E772-4B6D-968B-866B033FCA9B}
+		{C234B7E6-8C83-4937-81F3-8BACC69F5A8B} = {769B3EFE-B076-4975-9A0D-CAAF71CC5F36}
+		{60FE4B2B-B3D5-406E-BFD1-1D5D54B66F03} = {C234B7E6-8C83-4937-81F3-8BACC69F5A8B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {607E418B-A51C-47AB-AB6A-9BC8303FE22B}
+	EndGlobalSection
+EndGlobal
